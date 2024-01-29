@@ -6,10 +6,10 @@ A boilerplate project for quickly setting up an application using React and Tail
 
 Follow these steps to set up and start using the boilerplate:
 
-1. **Clone the Repository**: 1. Clone this template using [degit](https://github.com/Rich-Harris/degit), change "mightymeld-tailwind-signup-form" with your own project name <br />
+1. **Clone the Repository**: 1. Clone this template using [degit](https://github.com/Rich-Harris/degit), change "signup-form" with your own project name <br />
 
    ```bash
-    npx degit mightymeld/ts-mightymeld-next-chakra-starter "mightymeld-tailwind-signup-form"
+    npx degit mightymeld/mightymeld-tailwind-signup-form "signup-form"
    ```
 
 2. Run `npm install` to install depenendencies.
@@ -23,7 +23,7 @@ Follow these steps to set up and start using the boilerplate:
 
 1. Type `npm install` to install dependencies.
 
-2. Run `npm run dev`, the app should then appear in a browser tab on [localhost:3000](localhost:3000)
+2. Run `npm run dev`, the app should then appear in a browser tab on [localhost:5173](localhost:5173)
 
 ## Using Another Package Manager
 
