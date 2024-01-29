@@ -22,23 +22,23 @@ function App() {
           <div className="space-y-4">
             <h1 className="text-center text-2xl font-semibold text-slate-600">Sign Up</h1>
             <div>
-              <label htmlFor="first name" className="block mb-1 text-slate-600 font-semibold">First Name</label>
+              <label htmlFor="first name" className="block my-1 text-slate-600 font-semibold text-sm">First Name</label>
               <input type="text" value={firstName} onChange={(e) => setFirstName(e.target.value)} className="bg-sky-50 px-4 py-2 outline-none rounded-md w-full" />
             </div>
             <div>
-              <label htmlFor="last name" className="block mb-1 text-slate-600 font-semibold">Last Name</label>
+              <label htmlFor="last name" className="block my-1 text-slate-600 font-semibold text-sm">Last Name</label>
               <input type="text" value={lastName} onChange={(e) => setLastName(e.target.value)} className="bg-sky-50 px-4 py-2 outline-none rounded-md w-full" />
             </div>
             <div>
-              <label htmlFor="email" className="block mb-1 text-slate-600 font-semibold">Email</label>
+              <label htmlFor="email" className="block my-1 text-slate-600 font-semibold text-sm">Email</label>
               <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} className="bg-sky-50 px-4 py-2 outline-none rounded-md w-full" />
             </div>
             <div>
-              <label htmlFor="password" className="block mb-1 text-slate-600 font-semibold">Password</label>
+              <label htmlFor="password" className="block my-1 text-slate-600 font-semibold text-sm">Password</label>
               <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} className="bg-sky-50 px-4 py-2 outline-none rounded-md w-full" />
             </div>
           </div>
-          <button onClick={submitForm} className="mt-4 w-full bg-sky-600 hover:bg-sky-700 text-sky-100 py-2 rounded-md text-lg tracking-wide">Signup</button>
+          <button onClick={submitForm} className="mt-4 w-full bg-sky-600 hover:bg-sky-700 text-sky-50 py-2 rounded-md text-base tracking-wide ">Signup</button>
         </div>
       </form>
     </section>
